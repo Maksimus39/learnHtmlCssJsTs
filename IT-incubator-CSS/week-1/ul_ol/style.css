@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 400px;
+    list-style-image: linear-gradient(#89ca18, rgba(0, 191, 255, 0.35));
+    list-style-position: inside;
+}
+
+/*-----------------------------------------------*/
+
+
+/*ol li::marker {*/
+/*    color: darkviolet;*/
+/*    content: counter(example);*/
+/*}*/
+
+ol {
+    counter-reset: example 0;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+li {
+    counter-increment: example 2;
+    width: 300px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+li::after {
+    content: counter(example);
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 8rem;
+    position: absolute;
+    right: 10px;
+    top: -18px;
+}
+
+p {
+    font-size: 16px;
+}
