@@ -1,0 +1,28 @@
+html {
+font-size: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    width: 1000px;
+    border: 1px solid red;
+
+    font-size: 20px;
+}
+
+.square {
+    /*font-size: 10px;*/
+    background-color: rgba(144, 215, 236, 0.6);
+
+
+    /*width: 10em;*/
+    /*height: 20rem;*/
+
+
+    width: 100vw;
+    height: 50vh;
+}
