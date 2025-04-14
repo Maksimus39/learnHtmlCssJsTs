@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #431d1d;
+    gap: 40px;
+}
+
+.elem {
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+
+
+    /* граница задаётся по цвету текста*/
+    border-style: solid;
+
+    /*но можно задать отдельное свойство*/
+    border-color: #431d1d;
+    border-width: 14px;
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    background-color: #eaaa0b;
+
+
+    /*border-radius: 50px 50%;*/
+
+    /*border-top-left-radius: 50px;*/
+    /*border-top-right-radius: 70px;*/
+    /*border-bottom-left-radius: 20%;*/
+    /*border-bottom-right-radius: 72%;*/
+
+    /*можно записать в одну строку но пишется по часовой стрелке*/
+    /*border-radius: 50px 70px 20% 72%;*/
+
+
+    /* радиус по овалу */
+    border-radius: 50px/100px;
+}
