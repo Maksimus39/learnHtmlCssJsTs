@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+
+    background-color: rgba(0, 191, 255, 0.35);
+}
+
+.box {
+    padding: 50px 100px;
+    border: 3px solid;
+
+    background-color: rgb(209, 69, 8);
+}
