@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    border: 3px solid #1e43d5;
+}
+
+.flexContainer {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+   /*свойство для сброса содержимого*/
+    flex-wrap: wrap;
+   /**/
+
+    /*align-content: flex-start;*/
+
+
+    gap: 1rem;
+
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.myDiv {
+    background-color: lightcoral;
+
+    /*height: 50px;*/
+    flex-basis: 300px;
+
+    /*flex-grow: 2;*/
+
+    /*flex-shrink: 10;*/
+
+    width: 500px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myText {
+    background-color: aqua;
+    max-width: 500px;
+    align-self: flex-start;
+
+    order: -1;
+    /*-------скорость сжатия----*/
+    flex-shrink: 5;
+}
+
+.mySpan {
+    background-color: forestgreen;
+    /*flex-grow: 1;*/
+    width: 300px;
+}
+
+.myImg {
+    width: 150px;
+    /*align-self: flex-end;*/
+
+    /*порядок отрисовки по умолчанию 0 */
+    order: 2;
+    /*-----------------*/
+}
+/*-----------------------------------------------------------------------*/
+
+/*.wrapper {*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*    flex-direction: column;*/
+
+/*    text-align: center;*/
+
+/*}*/
+
+
+/*header {*/
+/*    background-color: green;*/
+/*    height: 100px;*/
+/*}*/
+
+/*main {*/
+/*    background-color: lightcoral;*/
+/*    height: 600px;*/
+/*}*/
+
+/*footer {*/
+/*    background-color: cornflowerblue;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+
+
