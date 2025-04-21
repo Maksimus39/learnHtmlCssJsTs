@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    color: black;
+}
+
+div {
+    background-color: #1e43d5;
+
+    width: 100px;
+    height: 50px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+a {
+    background-color: #8faeaf;
+    color: black;
+}
+
+span {
+    background-color: #cd11a8;
+}
+
+button {
+    background-color: forestgreen;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+}
