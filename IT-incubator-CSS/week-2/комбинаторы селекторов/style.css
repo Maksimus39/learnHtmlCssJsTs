@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    min-height: 80px;
+    background-color: #8faeaf;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    padding: 0;
+}
+
+
+section {
+    flex-grow: 1;
+}
+
+footer {
+    height: 80px;
+    background-color: #18c655;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(25, 65, 126, 0.66);
+}
+
+header ul a {
+    color: #cd11a8;
+    text-decoration: none;
+}
+
+li + li {
+    margin-left: 20px;
+}
+
+section > h2  {
+    color: #cd11a8;
+}
+
+ h2 + p {
+    color: chocolate;
+}
+
+h2 ~ p {
+    color: rgba(162, 200, 23, 0.66);
+}
+
