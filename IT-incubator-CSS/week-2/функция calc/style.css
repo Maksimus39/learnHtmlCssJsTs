@@ -1,0 +1,15 @@
+.elem {
+    margin: 0 auto;
+    width: calc(100% / 3);
+    height: calc(50vh - 100px);
+    background-color: lawngreen;
+    /*transform: rotate(calc(-10deg * 5));*/
+
+    line-height: calc(1.2 * 2);
+}
+
+@media screen and (max-width: calc(768px - 100px)) {
+    .elem {
+        width: calc(100% / 2);
+    }
+}
