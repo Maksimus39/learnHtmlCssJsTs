@@ -1,0 +1,30 @@
+.some-element1 {
+    display: flex;
+    /*height: 400px;*/
+    width: 300px;
+    background-color: #8faeaf;
+
+    padding: 10px 20px 30px 40px;
+
+    margin: 0 auto;
+
+}
+
+.some-element2 {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: #cd11a8;
+
+    padding: 10px 20px 30px 40px;
+
+    margin: 0 auto;
+}
+
+.some-element1{
+    margin-bottom: 100px;
+}
+
+.some-element2{
+    margin-top: 50px;
+}
