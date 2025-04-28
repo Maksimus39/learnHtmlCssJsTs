@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Tagesschrift'; /* Название шрифта (можно задать своё) */
+    src: url('assets/Tagesschrift-Regular.eot') format('embedded-opentype'), /* IE9+ */ url('assets/Tagesschrift-Regular.woff2') format('woff2'), /* Современные браузеры */ url('assets/Tagesschrift-Regular.woff') format('woff'); /* Большинство браузеров */
+    font-weight: bold; /* Жирность */
+    font-style: normal; /* Стиль (обычный/курсив) */
+    font-display: swap; /* Оптимизация загрузки */
+}
+
+@font-face {
+    font-family: 'Tagesschrift2'; /* Название шрифта (можно задать своё) */
+    src: url('assets/Tagesschrift-Regular.woff2') format('embedded-opentype'), /* IE9+ */ url('assets/Tagesschrift-Regular.woff2') format('woff2'), /* Современные браузеры */ url('assets/Tagesschrift-Regular.woff') format('woff'); /* Большинство браузеров */
+    font-weight: 400; /* Жирность */
+    font-style: italic; /* Стиль (обычный/курсив) */
+    font-display: swap; /* Оптимизация загрузки */
+}
+
+.sistem-font {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique;
+    font-variant: small-caps;
+    line-height: 1.2;
+    font-stretch: ultra-condensed;
+}
+
+.local-font {
+    font-family: Tagesschrift, sans-serif;
+    font-weight: bold;
+}
+
+.google-font {
+    font-family: Tagesschrift2, sans-serif;
+    font-weight: lighter;
+}
+
+.download-font {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
