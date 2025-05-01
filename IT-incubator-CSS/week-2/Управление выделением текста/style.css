@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: white;
+    background-color: #89ca18;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    max-width: 70%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+span {
+    user-select: none;
+}
+
+span {
+    user-select: text;
+}
+
