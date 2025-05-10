@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px
+}
+
+.box {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #bbe718;
+    box-shadow: 10px 10px 20px red inset,
+    30px 30px 40px #072af4;
+}
+
+.svg {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.png {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.text {
+    height: auto;
+    font-family: "Pinyon Script", cursive;
+    font-weight: bold;
+    font-size: 50px;
+    filter: drop-shadow(10px 10px 10px);
+}
