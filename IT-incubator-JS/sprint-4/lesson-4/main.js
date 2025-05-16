@@ -163,19 +163,3 @@
 //   }
 // }
 // -------------------------------
-function Car(brand, speed) {
-  // {}
-  this.brand = brand;
-  this.speed = speed;
-}
-
-  }
-
-}
-
-
-const p = new Person('Maria', 'Saga')
-console.log(p.favoriteColor)
-p.introduce()
-p.greet()
-p.introduceTwo()
