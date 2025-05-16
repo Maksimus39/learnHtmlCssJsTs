@@ -169,45 +169,13 @@ function Car(brand, speed) {
   this.speed = speed;
 }
 
-Car.prototype.startEngine = function () {
-  console.log(`start ${this.brand}`);
-};
-
-Car.compareCars = function (car1, car2) {
-  if (car1.speed > car2.speed) {
-    console.log(`${car1.brand} is faster than ${car2.brand}`);
-  } else {
-    console.log(`${car2.brand} is faster than ${car1.brand}`);
   }
-};
 
-const car1 = new Car("bmw", 200);
-const car2 = new Car("kia", 220);
-
-// CarCreator.compareCars(car1, car2);
-
-function SuperCar(brand, speed, canFly) {
-  Car.call(this, brand, speed);
-  this.canFly = canFly;
 }
 
-SuperCar.prototype.fly = function () {
-  console.log(`${this.brand} is flying`);
-};
 
-const superBmw = new SuperCar("superBmw", 400, true);
-const superBmw1 = new SuperCar("superBmw", 420, true);
-
-// SuperCar.prototype.__proto__ = Car.prototype;
-// SuperCar.__proto__ = Car;
-
-Object.setPrototypeOf(SuperCar.prototype, Car.prototype);
-Object.setPrototypeOf(SuperCar, Car);
-
-// console.log(superBmw);
-// superBmw.fly();
-superBmw.startEngine();
-// console.log(superBmw.__proto__.__proto__ === Object.prototype);
-SuperCar.compareCars(superBmw, superBmw1);
-
-console.log(superBmw);
+const p = new Person('Maria', 'Saga')
+console.log(p.favoriteColor)
+p.introduce()
+p.greet()
+p.introduceTwo()
