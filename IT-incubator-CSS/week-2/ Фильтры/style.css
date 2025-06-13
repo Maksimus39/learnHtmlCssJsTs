@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Pinyon Script", cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.parent {
+    width: 1000px;
+    height: 600px;
+    background-image: url("./assets/photo-3.webp");
+    background-size: cover;
+
+    transition: .2s;
+}
+
+.parent:hover {
+    /*filter:blur(5px);*/
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6e20e3;
+}
+
+.child:hover{
+    backdrop-filter: blur(5px);
+}
